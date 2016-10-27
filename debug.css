@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Abhaya+Libre|Montez|Niconne|Sevillana');
+* {
+  box-sizing: border-box;
+/*   border: 1px dashed red; */
+}
+
+body {
+  background: #ca8b83;
+  font-family: 'Abhaya Libre';
+  font-size: 1.1em;
+}
+
+h1,
+h2 {
+  font-family: Montez;
+}
+
+h1 {
+  width: 6em;
+  margin: 0 auto;
+  font-size: 5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  padding: 16px .7em;
+  margin: 0;
+}
+
+h2 span {
+  font-size: 2em;
+  font-family: inherit;
+}
+
+article {
+  width: 330px;
+  margin: 0 auto;
+}
+
+.page-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+section {
+  width: 800px;
+  /*   height:135px; */
+  /*   background-image: url('fork.png'); */
+  /*   background-repeat: no-repeat; */
+}
+
+.fork {
+  text-align: right;
+  background-image: url('fork.png');
+  background-repeat: no-repeat;
+}
+
+.spoon {
+/*   padding-left: none; */
+  background-image: url('spoon.png');
+  background-repeat: no-repeat;
+}
+
+.spoon h2 {
+  padding-left: 10px;
+}
+
+.knife {
+  text-align: right;
+  background-image: url('knife.png');
+  background-repeat: no-repeat;
+  
+}
